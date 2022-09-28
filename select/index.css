@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.demo-box {
+    padding: 0 0 120px;
+}
+
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+@font-face {
+    font-family: DINProM;
+    src: url('./font/DINPro-Medium.eot');
+    /* IE9 */
+    src: url('./font/DINPro-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./font/DINPro-Medium.woff') format('woff'), /* chrome、firefox */
+    url('./font/DINPro-Medium.ttf') format('truetype'), /* chrome、firefox、opera、Safari、Android、IOS */
+    url('./font/DINPro-Medium.svg') format('svg');
+    /* ios 4.1 */
+}
+
+.select_item {
+    position: relative;
+    width: 248px;
+    margin-top: 8px;
+    background: #15285C;
+
+}
+
+.select_item p {
+    height: 35px;
+    line-height: 33px;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.select_item:hover .txt {
+    border: 1px solid #D62F3F !important;
+}
+
+.select_item .pic {
+    color: #D62F3F !important;
+}
+
+.select_item p i {
+    color: #FFD27F;
+    font-family: DINProM;
+}
+
+.select_drop {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 100%;
+    background: #15285C;
+    display: none;
+    z-index: 9;
+}
+
+.select_drop .li {
+    width: 248px;
+    height: 35px;
+    background: #15285C;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+.select_drop .li:hover {
+    background: #3553AE;
+}
+
+.select_item .icon{
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 10px;
+    height: 10px;
+    background: url(https://jf.juming.com/jf/images/hd20210501/sjx.png) no-repeat center;
+    background-size: cover;
+    transition: all .3s;
+}
+.select_item .icon.up {
+    transform: rotate(-180deg);
+}

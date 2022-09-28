@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: 'iconfont';  /* Project id 2043801 */
+    src: url('//at.alicdn.com/t/font_2043801_bpnlfiw5u2.woff2?t=1628145777786') format('woff2'),
+    url('//at.alicdn.com/t/font_2043801_bpnlfiw5u2.woff?t=1628145777786') format('woff'),
+    url('//at.alicdn.com/t/font_2043801_bpnlfiw5u2.ttf?t=1628145777786') format('truetype');
+}
+
+
+.iconfont {
+    font-family: "iconfont" !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+i {
+    display: inline-block;
+    font-style: normal;
+}
+.jf_sider{
+    position: static !important;
+}
+
+.jf_sider {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 999;
+    width: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: -1px 0 10px 0 #e6e6e6
+}
+
+.jf_sider .item {
+    width: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    padding: 10px 0;
+    cursor: pointer
+}
+
+
+.jf_sider .iconfont {
+    font-size: 20px;
+}
+
+.jf_sider .item a {
+    color: #333;
+    display: block
+}
+
+.jf_sider .item:hover a {
+    color: #fff;
+}
+
+
+.jf_sider .item:hover {
+    color: #fff;
+    background-color: #0091FF;
+}
+
+
+.jf_sider .integral-return {
+    display: none;
+    cursor: pointer
+}
+
+.jf_sider .service {
+    position: relative
+}
+
+.jf_sider .item:hover .img {
+    display: block;
+}
+
+.jf_sider .service .img {
+    display: none;
+    padding: 5px;
+    position: absolute;
+    left: -120px;
+    top: 10px;
+    width: 110px;
+    text-align: left;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jf_sider .service .img:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    top: 19px;
+    right: -6px;
+    border-width: 6px 0 6px 6px;
+    border-color: transparent #fff transparent;
+}
+
+.jf_sider .service .img img {
+    width: 100px;
+    height: 100px
+}
+
+.jf_sider .service .img p {
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    line-height: 24px
+}
+
+.jf_sider .service:hover .img {
+    display: block
+}
