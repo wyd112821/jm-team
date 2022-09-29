@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{773:function(t,s,a){"use strict";a.r(s);var e={name:"default-modal",data:()=>({}),methods:{}},n=a(34),i=Object(n.a)(e,(function(){return(0,this._self._c)("a-modal",this._g(this._b({},"a-modal",this.$attrs,!1),this.$listeners),[this._t("default")],2)}),[],!1,null,"12759c08",null);s.default=i.exports}}]);
